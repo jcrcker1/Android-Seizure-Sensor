@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello"></string>
+    <string name="app_name">Seizure Sensor</string>
+	<string name="Start">Start</string>
+	<string name="hello_world">Hello world!</string>
+    <string name="Retrieve_Location">Retrieve Location</string>
+    <string name="Seizure_Detected">Seizure Detected</string>
+    <string name="Export_Button">Export Database</string>
+    <string name="Start_Server">"Start Server</string>
+    <string name="Stop_Server">Stop Server</string>
+    <string name="Email_Databse">Email Database</string>
+</resources>

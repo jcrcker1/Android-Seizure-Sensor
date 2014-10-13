@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    >
+ <Button
+	android:id="@+id/retrieve_location_button" 
+	android:text="@string/Retrieve_Location"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	/>
+ <Button
+	android:id="@+id/export_database" 
+	android:text="@string/Export_Button"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	/>
+ <Button 
+    android:id="@+id/email_database"
+    android:text="@string/Email_Databse"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    />
+<Button 
+    android:id="@+id/btn_start_server"
+    android:text="@string/Start_Server"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    />
+<Button 
+    android:id="@+id/btn_stop_server"
+    android:text="@string/Stop_Server"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:enabled="false"
+    />
+</LinearLayout>
